@@ -1,0 +1,20 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#ffdead;
+}
+
+a {
+  color: #41b1de;
+}
+
+
+nav{
+  background-color: #5796A4;
+  padding: 10px;
+}
+
+.p-3.border{
+  background-color: #A46557;
+  border: 2px solid slategray;
+}
