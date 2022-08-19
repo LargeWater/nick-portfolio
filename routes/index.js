@@ -7,11 +7,11 @@ router.get('/', function(req, res) {
 })
 
 router.get('/about', function(req, res) {
-  res.render('about', { title: 'About Me' })
+  res.render('about', { title: 'About Nick' })
 })
 
 router.get('/work', function(req, res) {
-  res.render('work', { title: 'Work' })
+  res.render('work', { title: "Nick's Work" })
 })
 
 router.get('/resume', function(req, res) {

@@ -1,0 +1,21 @@
+.modal,.modal > button{
+  color: #212121;
+}
+
+img{
+  max-width: 100%;
+  max-height: auto;
+}
+
+button{
+  max-width: 400px;
+  max-height: auto;
+}
+
+.work{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

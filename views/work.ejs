@@ -1,3 +1,53 @@
 <%- include('./partials/html-head')  %> 
-
 <%- include('./partials/nav') %> 
+<link rel="stylesheet" href="/stylesheets/work.css" />
+
+<section class="work">
+
+  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <img 
+      src="/images/placesmap.png" alt="places.map">
+      places.map()
+  </button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">places.map()</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          a Django app with a map that users can add markers to, and get directions
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="https://github.com/LargeWater/places-map" target="_blank">Github</a></button>
+          <button type="button" class="btn btn-primary"><a href="https://places-map.herokuapp.com" target="_blank">Live demo</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <img 
+      src="/images/rigbuilder.png" alt="places.map">
+      Rig Builder
+  </button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Rig Builder</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          a MEN-stack app to add pieces of guitar equipment to your collection
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="https://github.com/LargeWater/rig-builder" target="_blank">Github</a></button>
+          <button type="button" class="btn btn-primary"><a href="https://nicks-rig-builder.herokuapp.com/" target="_blank">Live demo</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
