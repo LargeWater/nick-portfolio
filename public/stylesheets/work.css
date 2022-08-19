@@ -1,5 +1,15 @@
-.modal,.modal > button{
+.card,.card-body > a{
   color: #212121;
+}
+.card-body > a:hover{
+  color: #41b1de;
+}
+
+.card{
+  margin: 20px;
+  max-height: auto;
+  max-width: 40vw;
+  background-color: #dadada;
 }
 
 img{
@@ -8,7 +18,7 @@ img{
 }
 
 button{
-  max-width: 400px;
+  max-width: 40vh;
   max-height: auto;
 }
 
