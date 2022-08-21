@@ -1,0 +1,21 @@
+.contact{
+  text-align: center;
+  margin-top: 40px;
+  line-height: 4;
+}
+
+
+.btn.btn-primary{
+  background-color: #41b1de;
+  border-color: #212121;
+  color: #212121;
+}
+
+.btn.btn-primary > a{
+  color: #212121;
+}
+
+.btn.btn-primary:hover{
+  background-color: #dadada;
+}
+
