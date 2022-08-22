@@ -48,3 +48,12 @@ button{
 .btn.btn-primary > a:hover{
   color: #dadada;
 }
+
+@media only screen and (max-width: 768px) {
+  .work{
+    width: 100%;
+  }
+  .card{
+    max-width: 70vw;
+  }
+}
