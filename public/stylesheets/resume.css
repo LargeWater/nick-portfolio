@@ -4,3 +4,8 @@
   margin-top: 100px;
   text-align: center;
 }
+
+img{
+  border-radius: 0;
+  filter:none
+}
