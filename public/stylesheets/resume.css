@@ -6,6 +6,5 @@
 }
 
 img{
-  border-radius: 0;
-  filter:none
+  border-radius: 0 !important;
 }
