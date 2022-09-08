@@ -72,4 +72,27 @@ img{
     margin-top: 70px;
   }
 }
-  
+
+.btn.btn-secondary.dropdown-toggle{
+  background-color: #212121;
+  color: #dadada;
+  border: none;
+  font-size: 2rem;
+}
+
+.dropdown-menu.show{
+  background-color: #212121;
+  color: #dadada;
+}
+
+.btn.btn-secondary.dropdown-toggle.show{
+  box-shadow: none;
+}
+
+.btn.btn-secondary.dropdown-toggle.show:hover{
+  box-shadow: none;
+}
+
+.btn:focus{
+  box-shadow: none;
+}
