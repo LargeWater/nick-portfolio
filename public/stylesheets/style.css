@@ -78,6 +78,7 @@ img{
   color: #dadada;
   border: none;
   font-size: 2rem;
+  padding: 8px;
 }
 
 .dropdown-menu.show{
