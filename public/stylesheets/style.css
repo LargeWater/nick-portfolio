@@ -57,7 +57,8 @@ img{
   max-width: 350px;
   max-height: auto;
   border-radius: 50%;
-  filter: invert(13%);
+  filter: grayscale(40%);
+  transition: filter 0.5s ease;
 }
 
 .footwrapper{
@@ -96,4 +97,8 @@ img{
 
 .btn:focus{
   box-shadow: none;
+}
+
+img:hover{
+  filter: grayscale(0%);
 }
