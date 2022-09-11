@@ -82,6 +82,11 @@ img{
   padding: 8px;
 }
 
+.btn.btn-secondary.dropdown-toggle:hover{
+  color: #41b1de;
+}
+
+
 .dropdown-menu.show{
   background-color: #212121;
   color: #dadada;
@@ -93,6 +98,7 @@ img{
 
 .btn.btn-secondary.dropdown-toggle.show:hover{
   box-shadow: none;
+  color: #41b1de;
 }
 
 .btn:focus{
